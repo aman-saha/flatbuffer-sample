@@ -21,5 +21,11 @@ $ ./decode.sh # decodes the data
 
 ![image info](images/output.png)
 
+## References
+
+- https://google.github.io/flatbuffers
+- https://github.com/chronoxor/CppSerialization
+- https://github.com/dvidelabs/flatcc
+
 
 
