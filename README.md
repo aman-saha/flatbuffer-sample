@@ -10,11 +10,11 @@
 ## Installation / Usage
 
 ```
-git clone https://github.com/aman-saha/flatbuffer-sample.git
-cd flatbuffer-sample/src/scripts/
-chmod +x *.sh
-./encode.sh # encodes the data
-./decode.sh # decodes the data
+$ git clone https://github.com/aman-saha/flatbuffer-sample.git
+$ cd flatbuffer-sample/src/scripts/
+$ chmod +x *.sh
+$ ./encode.sh # encodes the data
+$ ./decode.sh # decodes the data
 ```
 
 ## Output
