@@ -1,0 +1,33 @@
+
+namespace SampleClient;
+
+
+table Person{
+	name 	: string;
+	age 	: short;
+	weight 	: short;
+	gender 	: string;
+}
+
+table Group{
+	g_name 				: string;
+	g_avg_age 			: short;
+	g_avg_weight 		: short;
+	g_list_of_names 	: [string];
+}
+
+union Any{
+	Person, Group
+}
+
+table Client{
+	client	:	Any;
+}
+
+table List_of_Clients{
+	clients	:	[Client];
+}
+
+
+root_type List_of_Clients;
+
