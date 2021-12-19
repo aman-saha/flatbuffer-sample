@@ -5,9 +5,14 @@
 using namespace SampleClient;
 
 int main(int argc, const char *argv[]){
-	std::cout<<"Hello\n";
+	std::cout<<"Hello the data is encoded at ../bin/data.bin \n";
 	
 	flatbuffers::FlatBufferBuilder builder;
+
+	// Client Data
+
+	// 1/ {Ram, 21, 76.5, Male}
+	// 2/ {FightClub, 24.5, 66, {Ram, Shayam, Raghuveer} }
 
 	auto person_1_name 	= builder.CreateString("Ram");
 	auto person_2_name 	= builder.CreateString("Shyam");
